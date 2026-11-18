@@ -1,0 +1,8 @@
+{
+  "reporting_currency": "USD",
+  "source": "company_B/invoice_lines.csv",
+  "taxonomy": "company_B/taxonomy_B.csv",
+  "seed_labels": "company_B/seed_labels.csv",
+  "fx_rates": "company_B/fx_rates_usd.csv",
+  "notes": "Company B uses line currency rate or monthly FX table; see src/main.py."
+}

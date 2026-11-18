@@ -1,0 +1,14 @@
+{
+  "reporting_currency": "ZAR",
+  "sources": [
+    "company_A/erp_goods_receipts.csv",
+    "company_A/invoice_tool_export.csv"
+  ],
+  "taxonomy": "company_A/taxonomy_A.csv",
+  "labels": "company_A/labels_A.csv",
+  "primary_source": "erp_goods_receipts.csv",
+  "amount_net_field": "value_zar",
+  "invoice_amount_gross_field": "gross_amount",
+  "vat_default": 0.15,
+  "notes": "Company A dual-source matching uses ERP as primary; see src/main.py."
+}

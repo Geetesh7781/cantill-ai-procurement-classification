@@ -1,0 +1,14 @@
+# Confidential task data: NEVER push these files to the public repository
+data/
+*.xlsx
+*.xls
+*.parquet
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+outputs/*
+!outputs/.gitkeep
+
+outputs_zero_label/
+submission/

@@ -1,0 +1,25 @@
+{
+  "input_file": "company_C/invoice_lines.csv",
+  "taxonomy_file": "company_C/taxonomy_C.csv",
+  "taxonomy_columns": [
+    "category_l1",
+    "category_l2",
+    "category_l3",
+    "category_l4"
+  ],
+  "reporting_currency": "USD",
+  "fields": {
+    "record_id": "line_id",
+    "amount": "line_amount",
+    "date": "posting_date",
+    "currency": "currency",
+    "currency_rate": "currency_rate",
+    "supplier": "vendor_id",
+    "item": "material_number",
+    "description": "line_description",
+    "status": "status",
+    "account_description": "gl_account_description",
+    "document_type": "document_type"
+  },
+  "fx_rates": {}
+}
