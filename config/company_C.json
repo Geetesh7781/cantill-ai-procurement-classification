@@ -1,25 +1,24 @@
+
 {
   "input_file": "company_C/invoice_lines.csv",
   "taxonomy_file": "company_C/taxonomy_C.csv",
   "taxonomy_columns": [
-    "category_l1",
-    "category_l2",
-    "category_l3",
-    "category_l4"
+    "level_1",
+    "level_2",
+    "level_3",
+    "level_4"
   ],
   "reporting_currency": "USD",
   "fields": {
     "record_id": "line_id",
-    "amount": "line_amount",
-    "date": "posting_date",
-    "currency": "currency",
-    "currency_rate": "currency_rate",
-    "supplier": "vendor_id",
-    "item": "material_number",
+    "amount": "line_amount_usd",
+    "date": "invoice_date",
+    "supplier": "supplier_name",
+    "item": "product_service_code",
     "description": "line_description",
     "status": "status",
     "account_description": "gl_account_description",
-    "document_type": "document_type"
+    "document_type": "submission_type"
   },
   "fx_rates": {}
 }

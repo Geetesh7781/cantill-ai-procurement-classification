@@ -12,3 +12,13 @@ outputs/*
 
 outputs_zero_label/
 submission/
+
+# Assessment working files
+data_blind/
+outputs_blind/
+src/main_backup.py
+
+# Allow required submission deliverables
+!submission/
+!submission/*.csv
+!submission/*.json
